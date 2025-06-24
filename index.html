@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="styles/style.css">
     <meta name="description" content="AA Fratt ofrece limpieza de tapizados, pulido de ópticas y lavado exterior de autos a domicilio en General Rodríguez y alrededores. ¡Reservá tu turno por WhatsApp!">
     <meta name="author" content="Thomas Gomez">
+    <!-- ICON -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -19,17 +24,22 @@
         <div class="logo">
             <img src="images/aaafratt-logo.png" alt="AA FRATT - Logo">
         </div>
-        <nav>
-            <button class="menu-toggle">☰</button>
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Testimonios</a></li>
-            </ul>
-        </nav>
     </header>
+    <!-- MENU -->
+    <nav class="main-menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <button class="menu-toggle">☰</button>
+
+        <div class="submenu" id="submenu">
+            <a href="#">Testimonios</a>
+            <a href="#">Servicios</a>
+        </div>
+    </nav>
+
     <main>
         <div>
             <h1>TITULO</h1>
@@ -106,5 +116,22 @@
             </a>
         </nav>
     </footer>
+     <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const submenu = document.getElementById('submenu');
+
+  // Alternar visibilidad del menú cuando se hace clic en el botón
+        menuToggle.addEventListener('click', (e) => {
+          e.stopPropagation(); // Evita que se cierre al hacer clic en el botón
+         submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+        });
+
+  // Cerrar el menú si se hace clic fuera de él
+        document.addEventListener('click', (e) => {
+            if (!submenu.contains(e.target)) {
+                submenu.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
