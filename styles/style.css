@@ -50,6 +50,7 @@ header {
 
 .main-menu {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-content: center;
     padding: 2rem 1rem;
@@ -61,7 +62,7 @@ header {
     gap: 2rem;
 }
 
-.main-menu a, #subemenu a{
+.main-menu a, #submenu a{
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: bold;
@@ -81,7 +82,7 @@ header {
 .submenu {
     display: none;
     position: absolute;
-    top: 32%; /* justo debajo del menú */
+    top: 100%; /* justo debajo del menú */
     right: 1rem;
     background: white;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
