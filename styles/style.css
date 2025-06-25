@@ -82,7 +82,7 @@ header {
 .submenu {
     display: none;
     position: absolute;
-    top: 100%; /* justo debajo del menú */
+    top: 70%; /* justo debajo del menú */
     right: 1rem;
     background: white;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
