@@ -24,7 +24,7 @@ body {
     font-family: var(--body-font);
 }
 
-h1, h2, h2 {
+h1, h2, h3 {
     color: var(--primary-color);
 
     font-family: var(--heading-font);
@@ -32,6 +32,7 @@ h1, h2, h2 {
     text-transform: uppercase;
 }
 
+/* FIRST MOBILE */
 /* INDEX CSS */
 
 header {
