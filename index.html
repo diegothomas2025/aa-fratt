@@ -28,48 +28,84 @@
     <!-- MENU -->
     <nav class="main-menu">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#index.html">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#about-us">Sobre Nosotros</a></li>
+
         </ul>
         <button class="menu-toggle">☰</button>
 
         <div class="submenu" id="submenu">
-            <a href="#">Testimonios</a>
-            <a href="#">Servicios</a>
+            <a href="#testimonies">Testimonios</a><br><br>
+            <a href="#contact-us">Contacto</a>
         </div>
     </nav>
 
     <main>
-        <div>
+        <!-- Home -->
+        <section id="index.html">
             <h1>TITULO</h1>
-            <img src="" alt="">
-        </div>
-        <section class="services">
+            <img src="images/hero.webp" alt="Main image of car wash">
+        </section>
+
+        <!-- Offers -->
+        <section class="offers">
+
             <section class="service-offers1">
                 <h2>Limpieza de tapizados</h2>
                 <p>Desde <strong>$60000</strong></p>
                 <p>Lavado Interior</p>
                 <p>Limpieza porfunda</p>
                 <a href="https://wa.me/5491137663738" target="_blank">Reservar Ahora</a>
+                <a href="#tapizados-info" class="more">Ver más</a>
             </section>
+
             <section class="service-offers2">
                 <h2>Limpieza de tapizados</h2>
                 <p>Desde <strong>$60000</strong></p>
                 <p>Lavado Interior</p>
                 <p>Limpieza porfunda</p>
                 <a href="https://wa.me/5491137663738" target="_blank">Reservar Ahora</a>
+                <a href="#opticas-info" class="more">Ver más</a>
             </section>
+
             <section class="service-offers3">
                 <h2>Limpieza de tapizados</h2>
                 <p>Desde <strong>$60000</strong></p>
                 <p>Lavado Interior</p>
                 <p>Limpieza porfunda</p>
                 <a href="https://wa.me/5491137663738" target="_blank">Reservar Ahora</a>
+                <a href="#lavado-info" class="more">Ver más</a>
             </section>
         </section>
 
-        <section class="about-us">
+        <!-- Services -->
+        <!-- Description Services with images -->
+         <section id="services">
+            <h2>Servicios</h2>
+
+            <section id="tapizados-info" class="service-detail">
+                <h3>Limpieza de tapizados</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat odio, consequatur, repellendus dolore minus dignissimos asperiores quas nobis unde totam consectetur facere optio, praesentium cum ducimus iure voluptatem officiis.</p>
+            </section>
+
+            <section id="opticas-info" class="service-detail">
+                <h3>Limpieza de tapizados</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat odio, consequatur, repellendus dolore minus dignissimos asperiores quas nobis unde totam consectetur facere optio, praesentium cum ducimus iure voluptatem officiis.</p>
+            </section>
+
+            <section id="lavado-info" class="service-detail">
+                <h3>Limpieza de tapizados</h3>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat odio, consequatur, repellendus dolore minus dignissimos asperiores quas nobis unde totam consectetur facere optio, praesentium cum ducimus iure voluptatem officiis.</p>
+            </section>
+         </section>
+         
+
+        <!-- About Us -->
+        <section id="about-us">
             <h2>¿Quienes somos?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse aliquam ratione quasi alias praesentium explicabo neque, illum quidem magni corporis quibusdam, velit voluptatum vel repudiandae asperiores molestias eligendi maiores!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis pariatur voluptatibus magnam delectus, praesentium minus officia aut sequi quisquam vel dicta ipsum, sunt ad aperiam a unde nesciunt sed?</p>
@@ -84,7 +120,8 @@
             <a href="#">SERVICIOS</a>
         </section>
 
-        <section class="testimonies">
+        <!-- Testimonies -->
+        <section id="testimonies">
             <h2>Testimonios</h2>
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam id error sapiente eius quaerat perspiciatis similique optio cupiditate voluptatem voluptates possimus ab culpa molestiae nihil dolorem repellendus commodi, inventore architecto?</p>
@@ -101,6 +138,10 @@
                 <span>Thomas Gomez</span>
             </article>
         </section>   
+
+        <section id="contact-us">
+            <h2>Contacto</h2>
+        </section>
     </main>    
     <footer>
         <p>Copyright © 2025 | AA FRATT</p>

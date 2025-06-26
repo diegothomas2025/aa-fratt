@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     /* COLORS */
     --primary-color: #D4145A; /* Para acentos, botones y llamadas a la acción */
@@ -54,7 +58,8 @@ header {
     position: relative;
     justify-content: space-between;
     align-content: center;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    align-items: center;
 }
 
 .main-menu ul {
@@ -92,8 +97,21 @@ header {
     z-index: 1000;
 }
 
-.submenu a:hover {
+.submenu a:hover, .main-menu a:hover {
     background: var(--primary-color);
     color: white;
 }
+
+
+
+
+
+/* HOME SECTION */
+
+#index.html img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
