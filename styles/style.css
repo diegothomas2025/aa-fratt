@@ -108,7 +108,7 @@ header {
 
 /* HOME SECTION */
 
-#index.html img {
+.home img {
     width: 100%;
     height: auto;
     display: block;
