@@ -128,7 +128,7 @@ header {
 
 }
 
-.service-offers1 {
+.service-offers1, .service-offers2, .service-offers3 {
     margin: 1.5rem;
     padding: 1rem;
     height: 35rem;
@@ -140,7 +140,7 @@ header {
     grid-template-rows: 2fr, 1fr, 1fr, 1fr, 1fr 1fr;
 }
 
-.service-offers1 h2 {
+.service-offers1 h2, .service-offers2 h2, .service-offers3  h2 {
     grid-area: 1 / 1 / 2 / 2;
     align-self: center;
     justify-self: center;
@@ -148,9 +148,13 @@ header {
     font-size: 2rem;
 }
 
-.service-offers1 strong {
+.service-offers1 strong , .service-offers2 strong, .service-offers3 strong {
     color: var(--text-color);
     font-size: 1.5rem;
+}
+
+.service-offers1 span, .service-offers2 span, .service-offers3 span {
+    color: var(--secondary-color);
 }
 
 .text-price {
@@ -159,26 +163,26 @@ header {
     justify-self: center;
     text-align: center;
     color: #D4145A;
+    padding-bottom: 0.5rem;
 }
 
-.text-description1 {
-    padding-bottom: 0.5rem;
+.text-description1, .text-description2, .text-description3{
+    padding-bottom: 1rem;
     width: 15rem;
-    height: 2rem;
-    align-self: end;
-    justify-self: center;
-    text-align: center;
-    border-bottom: 1px solid var(--primary-color);
-}
-
-.text-description2 {
-    padding-bottom: 0.5rem;
-    width: 15rem;
-    height: 2rem;
+    height: auto;
     align-self: center;
     justify-self: center;
     text-align: center;
     border-bottom: 1px solid var(--primary-color);
+}
+
+.text-description4 {
+    padding-bottom: 1rem;
+    width: 15rem;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
 }
 
 .book {
