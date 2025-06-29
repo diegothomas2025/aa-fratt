@@ -181,5 +181,22 @@ header {
     border-bottom: 1px solid var(--primary-color);
 }
 
+.book {
+    text-decoration: none;
+
+    padding: 0.5rem;
+    width: 12rem;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-radius: 20rem;
+    box-shadow: 0 0 15px var(--primary-color);
+
+}
+
 
 
