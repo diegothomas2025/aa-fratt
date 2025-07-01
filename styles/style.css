@@ -233,11 +233,14 @@ header {
     padding: 3rem 1rem ;
     margin: 1rem 0;
     text-align: center;
-    
 }
 
 .service-detail, .services {
     background-color: black;
+}
+
+.services {
+    padding-bottom: 1rem;
 }
 
 .service-detail h3{
@@ -260,7 +263,7 @@ header {
 .description-service {
     margin: 1rem 1.3rem;
     margin-bottom: 3rem;
-    color: white;
+    color: lightgray;
 }
 
 .service-detail h4 {
@@ -271,12 +274,54 @@ header {
 
 .slogan {
     font-style: italic;
-    font-weight: 600;
     color: var(--primary-color);
-    margin: 1rem 1.3rem;
-    margin-bottom: 3rem;
+    margin: 1rem 1.3rem 4rem;
     text-align: center;
 }
 
 
+
+
+/* ABOUT US SECTION */
+.about-us h2 {
+    font-size: 2.5rem;
+    padding: 3rem 1rem ;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.about-us p {
+    padding: 1rem 1.3rem;
+}
+
+
+
+
+
+/* TESTIMONIES SECTION */
+.testimonies h2{
+    font-size: 2.5rem;
+    padding: 3rem 1rem ;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.testimonies {
+    background-color: black;
+    padding-bottom: 4rem;
+}
+
+article {
+    text-align: center;
+}
+
+article p{
+    margin: 1.5rem 1.3rem;
+    color: white;
+}
+
+.author-quote {
+    color: rgb(139, 138, 138);
+    font-weight: 600;
+}
 
