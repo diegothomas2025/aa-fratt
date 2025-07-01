@@ -36,6 +36,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+
 /* FIRST MOBILE */
 /* INDEX CSS */
 
@@ -125,7 +126,6 @@ header {
     font-size: 2.5rem;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
     text-align: center;
-
 }
 
 .service-offers1, .service-offers2, .service-offers3 {
@@ -201,6 +201,12 @@ header {
     box-shadow: 0 0 15px var(--primary-color);
 }
 
+.book:hover {
+    background-color: var(--secondary-color);
+    box-shadow: none;
+    color: white;
+}
+
 .more {
     text-decoration: none;
 
@@ -215,6 +221,61 @@ header {
     color: white;
     background-color: var(--primary-color);
     border-radius: 20rem;
+}
+
+
+
+
+
+/* SERVICES SECTION */
+.services h2 {
+    font-size: 2.5rem;
+    padding: 3rem 1rem ;
+    margin: 1rem 0;
+    text-align: center;
+    
+}
+
+.service-detail, .services {
+    background-color: black;
+}
+
+.service-detail h3{
+    margin-left: 1.3rem;
+    font-size: 2.5rem;
+    justify-self: start;
+    text-align: center;
+}
+
+.service-detail span {
+    color: white;
+}
+
+.service-detail img {
+    padding: 1.3rem;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description-service {
+    margin: 1rem 1.3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.service-detail h4 {
+    margin: 1rem 1.3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.slogan {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 1rem 1.3rem;
+    margin-bottom: 3rem;
 }
 
 
