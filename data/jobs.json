@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "car": "Ford Fiesta",
+    "service": "Full wash",
+    "price": "$5000",
+    "duration": "2 hours",
+    "location": "General Rodríguez",
+    "image": "images/fiesta.webp"
+  },
+  {
+    "id": 2,
+    "car": "Volkswagen Gol",
+    "service": "Upholstery cleaning",
+    "price": "$8000",
+    "duration": "3 hours",
+    "location": "Moreno",
+    "image": "images/gol.webp"
+  },
+  {
+    "id": 3,
+    "car": "Peugeot 208",
+    "service": "Exterior wash",
+    "price": "$3000",
+    "duration": "1 hour",
+    "location": "Luján",
+    "image": "images/208.webp"
+  },
+  {
+    "id": 4,
+    "car": "Toyota Corolla",
+    "service": "Headlight polishing",
+    "price": "$6000",
+    "duration": "1 hour",
+    "location": "General Rodríguez",
+    "image": "images/corolla.webp"
+  },
+  {
+    "id": 5,
+    "car": "Renault Clio",
+    "service": "Full interior cleaning",
+    "price": "$4500",
+    "duration": "2 hours",
+    "location": "Paso del Rey",
+    "image": "images/clio.webp"
+  },
+  {
+    "id": 6,
+    "car": "Chevrolet Onix",
+    "service": "Wash and wax",
+    "price": "$6500",
+    "duration": "2.5 hours",
+    "location": "Moreno",
+    "image": "images/onix.webp"
+  }
+]

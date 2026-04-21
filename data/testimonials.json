@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Juan",
+    "lastname": "Pérez",
+    "location": "General Rodríguez",
+    "comment": "The car looked spotless, highly recommended. Very punctual and professional.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "María",
+    "lastname": "Gómez",
+    "location": "Moreno",
+    "comment": "Excellent service, the upholstery looked like new. Great customer service.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Lucas",
+    "lastname": "Fernández",
+    "location": "Luján",
+    "comment": "Very satisfied with the work, fast and high quality. I would definitely hire again.",
+    "rating": 4
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Exterior wash and polish",
+    "price": "$3000",
+    "duration": "1 hour",
+    "description": "Complete cleaning of the vehicle's exterior.",
+    "image": "images/lavado-exterior.webp",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Exterior plastic conditioning",
+    "price": "$2500",
+    "duration": "30 min",
+    "description": "Restoration and protection of exterior plastics.",
+    "image": "images/plasticos-exterior.webp",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Full interior vacuuming and brushing",
+    "price": "$2000",
+    "duration": "40 min",
+    "description": "Deep cleaning of interior and trunk.",
+    "image": "images/aspirado.webp",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Upholstery cleaning",
+    "price": "$8000",
+    "duration": "3 hours",
+    "description": "Deep cleaning of seats and carpets.",
+    "image": "images/tapizados.webp",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Interior glass cleaning",
+    "price": "$1500",
+    "duration": "20 min",
+    "description": "Complete cleaning of interior windows.",
+    "image": "images/vidrios.webp",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Headlight polishing",
+    "price": "$6000",
+    "duration": "1 hour",
+    "description": "Removal of haze and UV protection.",
+    "image": "images/opticas.webp",
+    "featured": false
+  }
+]

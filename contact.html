@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Gomez">
+    <meta name="description" content="Contact us and tell us about your experience.">
+    <title>AA FRATT - Contact Us</title>
+    <!-- FAVICON -->
+     <link rel="icon" href="images/favicon.ico">
+    <!-- FACEBOOK META TAGS -->
+    <meta property="og:title" content="Contact Us | AA Fratt Car Wash">
+    <meta property="og:description" content="Contact us and tell us about your experience.">
+    <meta property="og:image" content="https://diegothomas2025.github.io/wdd231/images/profile.webp">
+    <meta property="og:url" content="https://diegothomas2025.github.io/wdd231/finalproject/index.html">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- SCRIPTS -->
+    <script src="scripts/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <img src="images/aafratt-logo.svg" alt="Logo AA FRATT" width="1" height="1">
+        <button id="ham-button" class="hamburger" aria-label="Open menu"></button>
+    </header>
+    <nav id="nav-button" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+        <form action="thankyou.html" method="get">
+            <h2>Tell us about your experience</h2>
+
+            <label for="get-fname">First Name</label>
+            <input type="text" id="get-fname" name="first" title="Your first name" autocomplete="given-name" placeholder="Thomas" required>
+
+            <label for="get-lname">Last Name</label>
+            <input type="text" id="get-lname" name="lastname" title="Your last name" autocomplete="family-name" placeholder="Gomez" required>
+
+            <label for="get-location">Location</label>
+            <input list="cities" id="get-location" name="location" placeholder="Start typing...">
+
+            <fieldset>
+                <legend>Overall Rating</legend>
+                <div>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">★</label>
+                    
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">★</label>
+                    
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">★</label>
+                    
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">★</label>
+                    
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">★</label>
+                </div>
+            </fieldset>
+
+            <datalist id="cities">
+                <option value="General Rodriguez"></option>
+                <option value="Moreno"></option>
+                <option value="Lujan"></option>
+                <option value="Pilar"></option>
+                <option value="San Miguel"></option>
+                <option value="Moron"></option>
+                <option value="Merlo"></option>
+                <option value="Ituzaingo"></option>
+            </datalist>
+
+            <label for="get-commentary">Commentary</label>
+            <textarea name="commentary" id="get-commentary" title="Write your experience"></textarea>
+            <!-- SUBMIT -->
+            <input type="submit" name="submit" id="submit" value="Send My Comment">
+        </form>
+    
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/ElTomiiXD/" target="_blank"><img src="images/facebook.svg" alt="Facebook Logo" width="16" height="16"></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B541137663738&text&type=phone_number&app_absent=0" target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Logo" width="16" height="16"></a>
+            <a href="https://www.instagram.com/tomii_gomez_/?__pwa=1" target="_blank"><img src="images/instagram.svg" alt="Instagram Logo" width="16" height="16"></a>
+        </div>
+        <p>©2026 | AA FRATT | ®All rights reserved</p>
+        <a href="https://youtu.be/yK7Au-JFqAc?si=ur98Rzs8pRFtjt0B" target="_blank">Video</a>
+    </footer>
+</body>
+</html>

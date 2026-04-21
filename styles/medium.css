@@ -1,0 +1,74 @@
+@media only screen and (min-width: 38rem) {
+
+    /******************************* HAMBURGER BUTTON *******************************/
+    .hamburger {
+        display: none;
+    }
+    /******************************* NAVIGATION *******************************/
+    .navigation {
+        display: block;
+    }
+    .navigation ul {
+        display: flex;
+    }
+    .navigation li {
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        border: none;
+    }
+    .navigation .current {
+        border-bottom: 2px solid var(--primary-color);
+        background-color: var(--dark-color-background);
+        color: var(--light-color-background);
+    }
+    #packages-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+        align-items: stretch;
+        row-gap: 10px;
+    }   
+    #testimonials-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    }
+    /******************************* SERVICES SECTION / service.html *******************************/
+    .service-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        row-gap: 10px;
+    }
+    /******************************* JOBS SECTION / service.html *******************************/
+    #jobs-grid div {
+        height: 200px;
+        justify-content: left;
+        grid-template-areas:
+        "image title"
+        "image car"
+        "image duration"
+        "image location";
+    }
+    #jobs-grid div img {
+        width: 300px;
+        height: 200px;
+    }
+    #jobs-grid div p {
+        margin: 0 10px;
+    }
+    /******************************* FORM *******************************/
+    form {
+        margin: 2rem auto;
+        width: 364px;
+        border-radius: 22px;
+        box-shadow: 0 0 15px gray;
+        padding: 2rem;
+    }
+    input[type=text],
+    input[type=tel],
+    input[list=cities],
+    form textarea,
+    fieldset {
+        max-width: 300px;
+        min-width: 300px;
+    }
+}

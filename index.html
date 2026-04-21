@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Gomez">
+    <meta name="description" content="Book our car wash packages backed by real testimonials">
+    <title>AA FRATT - Mobile Car Wash</title>
+    <!-- FAVICON -->
+     <link rel="icon" href="images/favicon.ico">
+    <!-- FACEBOOK META TAGS -->
+    <meta property="og:title" content="Home page - AA FRATT - Mobile Car Wash">
+    <meta property="og:description" content="Book our car wash packages backed by real testimonials">
+    <meta property="og:image" content="https://diegothomas2025.github.io/wdd231/images/profile.webp">
+    <meta property="og:url" content="https://diegothomas2025.github.io/wdd231/finalproject/index.html">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- SCRIPTS -->
+     <script src="scripts/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <img src="images/aafratt-logo.svg" alt="Logo AA FRATT" width="1" height="1">
+        <button id="ham-button" class="hamburger" aria-label="Open menu"></button>
+    </header>
+    <nav id="nav-button" class="navigation">
+        <ul>
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1 hidden>Home</h1>
+            <img src="images/hero.webp" alt="Car Wash Photo">
+            <section id="packages-container">
+                <h2 hidden>packages</h2>
+            </section>
+            <dialog id="dialog-container">
+                <div class="dialog-grid">
+                    <h2>Title</h2>
+                    <button>❌</button>
+                </div>
+                <div class="dialog-content">
+                    <p id="dialog-prices"></p>
+                    <ul id="dialog-services"></ul>
+                    <a href="https://wa.me/5491137663738" id="whatsapp-button" target="_blank">Confirm via WhatsApp</a>
+                </div>
+            </dialog>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonies</h2>
+            <div id="testimonials-container"></div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/ElTomiiXD/" target="_blank"><img src="images/facebook.svg" alt="Facebook Logo" width="16" height="16"></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B541137663738&text&type=phone_number&app_absent=0" target="_blank"><img src="images/whatsapp.svg" alt="WhatsApp Logo" width="16" height="16"></a>
+            <a href="https://www.instagram.com/tomii_gomez_/?__pwa=1" target="_blank"><img src="images/instagram.svg" alt="Instagram Logo" width="16" height="16"></a>
+        </div>
+        <p>©2026 | AA FRATT | ®All rights reserved</p>
+        <a href="https://youtu.be/yK7Au-JFqAc?si=ur98Rzs8pRFtjt0B" target="_blank">Video</a>
+    </footer>
+</body>
+</html>
