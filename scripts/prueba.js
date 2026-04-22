@@ -50,3 +50,7 @@ container.addEventListener('touchstart', (e) => {
 container.addEventListener('touchmove', (e) => {
   updateSlider(e.touches[0].clientX);
 });
+
+container.addEventListener('dragstart', (e) => {
+  e.preventDefault();
+});
