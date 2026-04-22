@@ -1,13 +1,9 @@
 .compare-container {
   position: relative;
-
   width: 100%;
   max-width: 300px;
-
-  aspect-ratio: 3 / 2; /* 🔥 reemplaza height */
-
+  aspect-ratio: 3 / 2;
   margin: 0 auto;
-
   overflow: hidden;
   border-radius: 12px;
 }
@@ -17,11 +13,13 @@
   position: absolute;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
+
+
   object-fit: cover;
 }
-
 /* WRAPPER */
 .after-wrapper {
   position: absolute;
@@ -38,9 +36,10 @@
   top: 0;
   left: 0;
 
-  width: 300px; /* 👈 MISMO ancho que el container */
-  height: 200px;
+  width: 100%;
+  height: 100%;
 
+  /* transform: translate(-50%, -50%); */
   object-fit: cover;
 }
 
