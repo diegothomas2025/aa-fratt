@@ -81,9 +81,17 @@
   
 }
 .slider-circle img {
-  width: 90%;
+  width: 21%;
   height: auto;
+  margin-right: 1px;
   
+}
+.slider-circle p {
+  width: 65%;
+  color: wheat;
+  font-size: 6px;
+  height: auto;
+  font-family: Fugaz One;
 }
 
 /* .slider-circle:hover img {
