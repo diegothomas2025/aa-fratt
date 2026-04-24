@@ -15,7 +15,7 @@ import { getServiceData } from './services.js';
 getServiceData()
 
 // DISPLAY JOBS
-import { getJobsData } from './jobs.js';
+import { getJobsData } from './jobs2.js';
 getJobsData()
 
 // DISPLAY THANKYOU PAGE

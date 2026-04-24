@@ -9,7 +9,7 @@
   width: 100%;
   min-width: 300px;
   max-width: 300px;
-  aspect-ratio: 4 / 2;
+  aspect-ratio: 3 / 2;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 12px;
@@ -77,7 +77,7 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(4px);
-  cursor: pointer;
+  cursor: col-resize;
   
 }
 .slider-circle img {
@@ -93,28 +93,6 @@
   height: auto;
   font-family: Fugaz One;
 }
-
-/* .slider-circle:hover img {
-  opacity: 0;
-}
-
-.slider-circle::after {
-  content: "↔";
-  position: absolute;
-  color: white;
-  font-size: 18px;
-  opacity: 0;
-}
-
-.slider-circle:hover::after {
-  opacity: 1;
-} */
-/* .slider-circle::after {
-  content: "↔";
-  color: white;
-  font-size: 15px;
-  cursor: col-resize;
-} */
 
 .compare-container {
   -webkit-user-select: none;

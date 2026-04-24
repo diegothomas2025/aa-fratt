@@ -31,6 +31,7 @@ function displayJobs(data) {
         const duration = document.createElement('p');
         duration.classList.add('duration');
         const location = document.createElement('p');
+        
         location.classList.add('location');
         
         // BUILD CARDS
