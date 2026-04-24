@@ -1,4 +1,4 @@
-const url = "https://diegothomas2025.github.io/wdd231/finalproject/data/jobs.json";
+const url = "https://diegothomas2025.github.io/aa-fratt//data/jobs.json";
 const jobsContainer = document.querySelector('#jobs-container');
 const jobsGrid = document.querySelector('#jobs-grid');
 
@@ -7,6 +7,7 @@ export async function getJobsData() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
+            console.log(data)
             displayJobs(data);
         } else {
             throw Error (await response.text())
