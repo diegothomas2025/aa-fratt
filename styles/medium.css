@@ -39,22 +39,12 @@
         row-gap: 10px;
     }
     /******************************* JOBS SECTION / service.html *******************************/
-    #jobs-grid div {
-        height: 200px;
-        justify-content: left;
-        grid-template-areas:
-        "image title"
-        "image car"
-        "image duration"
-        "image location";
+    #jobs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        row-gap: 10px;
     }
-    #jobs-grid div img {
-        width: 300px;
-        height: 200px;
-    }
-    #jobs-grid div p {
-        margin: 0 10px;
-    }
+  
     /******************************* FORM *******************************/
     form {
         margin: 2rem auto;

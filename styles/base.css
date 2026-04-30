@@ -302,42 +302,97 @@ header img {
     margin: 0 auto;
     padding: 2.5rem 0;
 }
-#jobs-grid div {
-    margin: 1rem 10px;
-    box-shadow: 0 0 15px gray;
-    border-radius: 8px;
-    overflow: hidden;
-
-    display: grid;
-    grid-template-areas: 
-    "title"
-    "image"
-    "car"
-    "duration"
-    "location";
-}
-#jobs-grid div h3 {
-    font-size: 1.5rem;
-    margin: 1rem 10px;
-    grid-area: title;
-}
-#jobs-grid div img {
-    display: block;
+/* #jobs-grid div {
+   
+} */
+.containerBox {
+    position: relative;
     width: 100%;
-    grid-area: image;
+    min-width: 300px;
+    max-width: 300px;
+    aspect-ratio: 3 / 2;
+    margin: 1rem auto;
+    overflow: hidden;
+    border-radius: 12px;
 }
-#jobs-grid div p {
-    margin: .5rem 10px;
+/* BEFORE */
+.before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+
+  object-fit: cover;
 }
-.car {
-    grid-area: car;
+/* WRAPPER */
+.containerBoxAfter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
 }
-.duration {
-    grid-area: duration;
+/* AFTER (clave total) */
+.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+
+  /* transform: translate(-50%, -50%); */
+  object-fit: cover;
 }
-.location {
-    grid-area: location;
+/* Línea */
+.slider-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: white;
+  transform: translateX(-50%);
+  z-index: 2;
+
 }
+/* Círculo */
+.slider-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  cursor: col-resize;
+}
+.slider-circle img {
+  width: 22%;
+  height: auto;
+  margin-right: 1px;
+}
+.slider-circle p {
+  width: 65%;
+  color: wheat;
+  font-size: 6px;
+  height: auto;
+  font-family: Fugaz One;
+}
+.containerBox {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 
 /******************************* FORM / contact.html *******************************/
 form {

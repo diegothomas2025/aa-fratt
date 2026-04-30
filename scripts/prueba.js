@@ -19,7 +19,7 @@ function updateSlider(clientX) {
   line.style.left = percent + "%";
 }
 
-// 🖱 CLICK (esto te faltaba)
+// Click
 container.addEventListener('click', (e) => {
   updateSlider(e.clientX);
 });
@@ -28,15 +28,12 @@ container.addEventListener('click', (e) => {
 container.addEventListener('mousedown', () => {
   isDragging = true;
 });
-
 container.addEventListener('mouseup', () => {
   isDragging = false;
 });
-
 container.addEventListener('mouseleave', () => {
   isDragging = false;
 });
-
 container.addEventListener('mousemove', (e) => {
   if (!isDragging) return;
   updateSlider(e.clientX);
@@ -46,11 +43,11 @@ container.addEventListener('mousemove', (e) => {
 container.addEventListener('touchstart', (e) => {
   updateSlider(e.touches[0].clientX);
 });
-
 container.addEventListener('touchmove', (e) => {
   updateSlider(e.touches[0].clientX);
 });
 
+// Evitar drag nativo
 container.addEventListener('dragstart', (e) => {
   e.preventDefault();
 });

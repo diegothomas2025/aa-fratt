@@ -2,9 +2,9 @@
   {
     "id": 1,
     "car": "Ford Fiesta",
-    "service": "Full wash",
+    "service": "Lavado exterior y pulido",
     "price": "$5000",
-    "duration": "2 hours",
+    "duration": "2 horas",
     "location": "General Rodríguez",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
@@ -12,9 +12,9 @@
   {
     "id": 2,
     "car": "Volkswagen Gol",
-    "service": "Upholstery cleaning",
+    "service": "Acondicionamiento de plásticos exteriores",
     "price": "$8000",
-    "duration": "3 hours",
+    "duration": "3 horas",
     "location": "Moreno",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
@@ -22,9 +22,9 @@
   {
     "id": 3,
     "car": "Peugeot 208",
-    "service": "Exterior wash",
+    "service": "Aspirado y cepillado interior completo",
     "price": "$3000",
-    "duration": "1 hour",
+    "duration": "1 hora",
     "location": "Luján",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
@@ -32,9 +32,9 @@
   {
     "id": 4,
     "car": "Toyota Corolla",
-    "service": "Headlight polishing",
+    "service": "Limpieza de tapizados",
     "price": "$6000",
-    "duration": "1 hour",
+    "duration": "1 hora",
     "location": "General Rodríguez",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
@@ -42,9 +42,9 @@
   {
     "id": 5,
     "car": "Renault Clio",
-    "service": "Full interior cleaning",
+    "service": "Limpieza de vidrios interiores",
     "price": "$4500",
-    "duration": "2 hours",
+    "duration": "2 horas",
     "location": "Paso del Rey",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
@@ -52,9 +52,9 @@
   {
     "id": 6,
     "car": "Chevrolet Onix",
-    "service": "Wash and wax",
+    "service": "Pulido de ópticas",
     "price": "$6500",
-    "duration": "2.5 hours",
+    "duration": "2.5 horas",
     "location": "Moreno",
     "imageBefore": "fiesta.webp",
     "imageAfter": "fiesta-before.webp"
