@@ -302,16 +302,26 @@ header img {
     margin: 0 auto;
     padding: 2.5rem 0;
 }
-/* #jobs-grid div {
-   
-} */
+.card {
+    margin: 1rem 10px;
+    background-color: var(--light-color-background);
+    box-shadow: 0 0 15px gray;
+}
+.card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 10px;
+}
+.card > p {
+    margin: 1rem 10px;
+}
+
 .containerBox {
     position: relative;
     width: 100%;
-    min-width: 300px;
-    max-width: 300px;
-    aspect-ratio: 3 / 2;
-    margin: 1rem auto;
+    min-width: 400px;
+    max-width: 400px;
+    aspect-ratio: 4 / 3;
+    margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
 }
@@ -341,7 +351,7 @@ header img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 400px;
   height: 100%;
 
   /* transform: translate(-50%, -50%); */

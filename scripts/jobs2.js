@@ -22,6 +22,19 @@ function displayJobs(data) {
 
     data.forEach(element => {
 
+        // CREATE CARD ELEMENTS 
+        const divCard = document.createElement('div');
+        divCard.classList.add('card')
+        const service = document.createElement('h3');
+        const car = document.createElement('p');
+        const duration = document.createElement('p');
+        const location = document.createElement('p');
+
+        service.textContent = `${element.service}`;
+        car.textContent = `Modelo: ${element.car}`;
+        duration.textContent = `Duracion: ${element.duration}`;
+        location.textContent = `Ubicacion: ${element.location}`;
+
         // CREATE IMAGE SLIDER ELEMENTS
         const containerBox = document.createElement('div');
         containerBox.classList.add('containerBox');
@@ -56,17 +69,25 @@ function displayJobs(data) {
         logo.setAttribute('loading', 'lazy');
         
         // APPEND ELEMENTS
-        containerBox.appendChild(imageBefore);
+
+        divCard.appendChild(service)
+
+        containerBox.appendChild(imageBefore); // Slider elements
         containerBoxAfter.appendChild(imageAfter);
         divSliderCircle.appendChild(logo)
         divSliderCircle.appendChild(fratt)
-        
+
         divSliderLine.appendChild(divSliderCircle);
 
         containerBox.appendChild(containerBoxAfter);
         containerBox.appendChild(divSliderLine);
-        
-        jobsGrid.appendChild(containerBox);
+
+        divCard.appendChild(containerBox);
+        divCard.appendChild(car)
+        divCard.appendChild(duration)
+        divCard.appendChild(location)
+
+        jobsGrid.appendChild(divCard);
 
         initSlider(containerBox);
     });

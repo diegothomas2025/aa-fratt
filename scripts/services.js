@@ -1,4 +1,4 @@
-const url = "https://diegothomas2025.github.io/wdd231/finalproject/data/services.json"
+const url = "https://diegothomas2025.github.io/aa-fratt/data/services.json"
 const servicesContainer = document.querySelector('#services-container');
 const lastServiceSelected = document.querySelector('#lastServiceSelected');
 const cardContent = document.createElement('div');
@@ -35,10 +35,10 @@ function displayServices(data) {
 
         // BUILD CARD
         serviceTitle.textContent = element.name;
-        price.textContent = `Price: ${element.price}`;
-        duration.textContent = `Duration: ${element.duration}`;
-        description.textContent = `Description: ${element.description}`;
-        reserveButton.textContent = "Book Now";
+        price.textContent = `Precio: ${element.price}`;
+        duration.textContent = `Duracion: ${element.duration}`;
+        description.textContent = `Descripcion: ${element.description}`;
+        reserveButton.textContent = "Reservar Ahora";
         reserveButton.setAttribute('href', 'https://wa.me/5491137663738')
         reserveButton.setAttribute('target', '_blank')
         
@@ -52,12 +52,12 @@ function displayServices(data) {
 
         reserveButton.addEventListener('click', () => {
             localStorage.setItem('lastService', element.name)
-            lastServiceSelected.textContent = `Last service selected: ${localStorage.getItem('lastService')}`
+            lastServiceSelected.textContent = `Ultimo servicio elegido: ${localStorage.getItem('lastService')}`
         });
     });
 
     const savedService = localStorage.getItem('lastService')
     if (savedService) {
-        lastServiceSelected.textContent = `Your last service selected was ${savedService}`;
+        lastServiceSelected.textContent = `Ultimo servicio elegido: ${savedService}`;
     }
 };
