@@ -318,9 +318,8 @@ header img {
 .containerBox {
     position: relative;
     width: 100%;
-    min-width: 300px;
-    max-width: 300px;
-    aspect-ratio: 3 / 2;
+    max-width: 400px;
+    aspect-ratio: 4 / 3;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
@@ -351,7 +350,7 @@ header img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  max-width: 400px;
   height: 100%;
 
   /* transform: translate(-50%, -50%); */
