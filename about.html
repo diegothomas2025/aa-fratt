@@ -32,36 +32,40 @@
     </header>
     <nav id="nav-button" class="navigation">
         <ul>
-            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Servicios</a></li>
             <li><a href="contact.html">Contacto</a></li>
-            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a class="current" href="about.html">Sobre Nosotros</a></li>
         </ul>
     </nav>
-    <main>
-        <section class="hero">
-            <h1 hidden>Home</h1>
-            <img src="images/hero.webp" alt="Car Wash Photo">
-            <section id="packages-container">
-                <h2 hidden>packages</h2>
-            </section>
-            <dialog id="dialog-container">
-                <div class="dialog-grid">
-                    <h2>Title</h2>
-                    <button>❌</button>
-                </div>
-                <div class="dialog-content">
-                    <p id="dialog-prices"></p>
-                    <ul id="dialog-services"></ul>
-                    <a href="https://wa.me/5491137663738" id="whatsapp-button" target="_blank">Confirmar por WhatsApp</a>
-                </div>
-            </dialog>
+    <main class="main-container">
+        <h1>Sobre Nosotros</h1>
+        <section class="card ">
+            <h2>About Me</h2>
+            <div class="profile">
+                <p>My name is Thomas, I'm 22 years old, and I was born in Buenos Aires, Argentina, which is a beautiful city. I really enjoy learning new things such as dancing, singing, and sports. I think that’s what led me to learn programming. Currently, I really like frontend development, and I am doing my best to improve my skills.</p>
+                <img src="images/profile.webp" alt="Author Image" loading="lazy">
+            </div>
+            <h3>Argentina</h3>
+            <div class="argentina">
+                <figure>
+                    <img src="images/argentina.webp" alt="Argentina Flag" loading="lazy">
+                    <figcaption>Argentina Flag</figcaption> 
+                </figure>
+                <p>Argentina is a country in South America. Its main province is called Buenos Aires. Argentina is known for its rich culture, delicious food like asado and empanadas, passionate soccer, and beautiful landscapes such as Patagonia and Iguazú Falls.</p>
+            </div>
         </section>
-        <section class="testimonials">
-            <h2>Testimonios</h2>
-            <div id="testimonials-container"></div>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul class="web-resources">
+                <li><a href="https://www.udemy.com/home/my-courses/learning/">Udemy</a></li>
+                <li><a href="https://developer.mozilla.org/es/">MDN</a></li>
+                <li><a href="https://chatgpt.com/c/68bcdb42-6bdc-8331-998b-def47b112c37">Chat GPT</a></li>
+                <li><a href="https://squoosh.app/">Squoosh</a></li>
+                <li><a href="https://www.figma.com/files/team/1518007020828642637/project/404070113/Proyecto-en-equipo?fuid=1518007018238513076">Figma</a></li>
+                <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+            </ul>
         </section>
-
     </main>
     <footer>
         <div class="social">
