@@ -20,9 +20,9 @@ export function displayPackages(packages) {
         nameh2.textContent = `Fratt `;
         // PRICE
         price.textContent = element.price;
-        priceP.textContent = `From `;
+        priceP.textContent = `Desde `;
         // BUTTON
-        reserveButton.textContent = `Book Now`;
+        reserveButton.textContent = `Reservar Ahora`;
 
         // SERVICES ARRAY
         element.services.forEach(service => { 
@@ -66,7 +66,7 @@ function displayDialog(element) {
     
     // BUILD CARD
     dialogTitle.textContent = `Fratt ${element.name}`;
-    prices.textContent = `From ${element.price}`;
+    prices.textContent = `Desde ${element.price}`;
     serviceList.textContent = "";
     element.services.forEach(service => {
         

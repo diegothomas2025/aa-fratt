@@ -1,32 +1,32 @@
 export const packages = [
   {
     name: "Urban",
-    price: "$60,000",
+    price: "$60.000",
     services: [
-      "Exterior wash",
-      "Exterior plastic conditioning",
-      "Vacuuming and brushing (including trunk)",
-      "Interior conditioning"
+      "Lavado exterior",
+      "Acondicionamiento de plásticos exteriores",
+      "Aspirado y cepillado + baúl",
+      "Acondicionamiento interior"
     ]
   },
   {
     name: "Reset",
-    price: "$60,000",
+    price: "$60.000",
     services: [
-      "Upholstery cleaning",
-      "Stain removal",
-      "Full vacuuming",
-      "Free exterior wash"
+      "Limpieza de tapizados",
+      "Eliminación de manchas",
+      "Aspirado completo",
+      "Lavado exterior gratis"
     ]
   },
   {
-    name: "Headlight Restoration",
-    price: "$60,000",
+    name: "Restauración de ópticas",
+    price: "$60.000",
     services: [
-      "Headlight polishing",
-      "Scratch removal",
-      "Ceramic sealant",
-      "UV protection"
+      "Pulido de ópticas",
+      "Eliminación de rayones",
+      "Sellador cerámico",
+      "Protección UV"
     ]
   }
 ];

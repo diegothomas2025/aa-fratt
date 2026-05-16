@@ -1,4 +1,4 @@
-const url = "https://diegothomas2025.github.io/wdd231/finalproject/data/testimonials.json";
+const url = "https://diegothomas2025.github.io/aa-fratt/data/testimonials.json";
 const testimonialsContainer = document.querySelector('#testimonials-container')
 
 export async function getTestimonialData() {
@@ -34,7 +34,7 @@ function displayTestimonials(data) {
         //BUILD CARD
         fullname.textContent = `${element.name} ${element.lastname}`
         comment.textContent = element.comment;
-        location.textContent = `Location: ${element.location}`;
+        location.textContent = `Ubicación: ${element.location}`;
         rating.textContent = "⭐".repeat(element.rating)
 
         cardContainer.appendChild(rating);
